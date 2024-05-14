@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aula 16</title>
+  
+    <style>
+        .container{
+            background-color: blueviolet;
+            height: 400px;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-evenly;
+            align-items: center;
+            flex-wrap: wrap;
+            /*align-content: space-between;*/
+        }
+        
+        .item{
+            background-color: aquamarine;
+            color: black;
+            padding: 20px;
+            margin: 5px;
+        }
+        .artigo-02{
+                /*flex-grow: 2;*/
+        }
+        .artigo-03{
+                align-self: flex-end;
+        }
+        .containerdiv{
+            display: flex;
+            margin: 10px;
+            align-items: center;
+            justify-content: center;
+            flex-wrap: nowrap;
+
+        }
+
+
+        .div-01{
+            background-color: brown;
+            width: 120px;
+            height: 120px;
+            border-radius: 100%;
+        }
+    
+
+    </style>
+
+</head>
+<body>
+     <h1>Trabalhando com Flexbox</h1>
+
+     <section class="container">
+        <article class="item artigo-01">
+            Artigo 1 
+        </article>
+        <article class="item artigo-02">
+            Artigo 2
+        </article>
+        <article class="item artigo-03">
+            Artigo 3
+        </article>
+        <article class="item artigo-01">
+            Artigo 1 
+        </article>
+        <article class="item artigo-02">
+            Artigo 2
+        </article>
+        <article class="item artigo-03">
+            Artigo 3
+        </article>
+     </section>
+     <section class=" container containerdiv">
+            <div class="item div-01">
+
+
+
+            </div>
+
+
+
+     </section>
+
+
+
+
+
+</body>
+</html>
